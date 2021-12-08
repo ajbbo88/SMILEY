@@ -1,0 +1,40 @@
+body,html{
+    background-color: #FFEE9F;
+}
+.face, .eye-1, .eye-2, .mouth{
+position: absolute;
+}
+.face{
+    background-color: #FDD671;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    top: 120px;
+    left: 550px;
+}
+.eye-1{
+    width: 120px;
+    height: 60px;
+    background: #1F1A50;
+    border-radius: 100px / 50px;
+    transform: rotate(90deg);
+    top: 130px;
+    left: 90px;
+}
+.eye-2{
+    width: 120px;
+    height: 60px;
+    background: #1F1A50;
+    border-radius: 100px / 50px;
+    transform: rotate(90deg);
+    top: 130px;
+    left: 280px;
+}
+.mouth{
+    height: 100px;
+    width: 250px;
+    background-color: #20194B;
+    border-radius: 50% / 0 0 100% 100%; 
+    top: 315px;
+    left: 125px;
+}
